@@ -1,3 +1,12 @@
+'''
+Programa para a criacao de matrizes.
+
+Mateus-n00b, Setembro 2016
+
+Versao 1.0
+
+Licenca GPL
+'''
 import random,os
 C = []
 lin = raw_input("QTD LINES>> ")
