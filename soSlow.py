@@ -1,3 +1,12 @@
+'''
+Realiza a multiplicacao de matrizes utilizando o modulo numpy.
+
+Mateus-n00b, Outubro 2016
+
+Versao 1.0
+
+Licenca GPL
+'''
 import numpy as np
 import os,time
 
@@ -10,6 +19,6 @@ import os,time
 mA = np.arange(4000000).reshape(2000,2000)
 #mA = np.arange(16000000).reshape(4000,4000)
 mB = mA
-var = open("/tmp/resultado_local",'w')
+var = open("/tmp/soSlow",'w')
 var.write(str(np.dot(mA,mB)))
 var.close()
