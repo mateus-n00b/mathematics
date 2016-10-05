@@ -1,3 +1,14 @@
+'''
+Este programa realiza um multiplicacao de matrizes nxn (quadradas) de forma mais rapida
+do que a forma convencional. Escolha um tamanho para a matrix e meca o tempo usando o comando
+time. Utilize para comparacao o programa soSlow.py, presente neste mesmo repo.
+
+Mateus-n00b, Outubro 2016
+
+Versao 1.0
+
+Licenca GPL
+'''
 import numpy as np
 import os,time
 
@@ -25,6 +36,6 @@ while cont < num:
     aux = np.dot(Pum,Pdois)
     result = np.add(result,aux)
 
-var = open("/tmp/resultado_local",'w')
+var = open("/tmp/soFast",'w')
 var.write(str(result))
 var.close()
